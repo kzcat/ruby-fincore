@@ -16,7 +16,7 @@ require 'fincore'
 
 File.open('some/file') do |f|
   f.cached_pages # return number of pages that are cached
-  f.total_pages  # return number of total pages
+  f.total_pages  # return number of pages at total
 end
 ```
 
@@ -25,5 +25,5 @@ end
 * `total_pages -> Integer`
 
 ### Requirements
-Platform must be support mincore system call.
+The platform must support *mincore* system call.
 
