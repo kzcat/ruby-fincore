@@ -1,5 +1,5 @@
 # ruby-fincore 
-Ruby File class extension. It add some instance methods to determine pages of file contents being resident in memory(in core).
+Ruby File class extension to determine pages of file contents being resident in memory(in core).
 
 ### Installation
 

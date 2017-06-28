@@ -7,10 +7,10 @@ require 'fincore/version'
 Gem::Specification.new do |spec|
   spec.name          = 'fincore'
   spec.version       = Fincore::VERSION
-  spec.authors       = ['kzcat@users.noreply.github.com']
-  spec.email         = ['kzcat@users.noreply.github.com']
-  spec.summary       = %q{counts pages of file contents in core }
-  spec.description   = %q{counts pages of file contents being resident in memory(in core), and reports the numbers.}
+  spec.authors       = ['kzcat@outlook.jp']
+  spec.email         = ['kzcat@outlook.jp']
+  spec.summary       = %q{fincore}
+  spec.description   = %q{FIle class extention to determine pages of file contents being resident in memory(in core).}
   spec.homepage      = 'https://github.com/kzcat/ruby-fincore'
   spec.license       = 'MIT'
   spec.extensions    = %w[ext/fincore/extconf.rb]
