@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ['kzcat@outlook.jp']
   spec.email         = ['kzcat@outlook.jp']
   spec.summary       = %q{fincore}
-  spec.description   = %q{FIle class extention to determine pages of file contents being resident in memory(in core).}
+  spec.description   = %q{File class extention to determine pages of file contents being resident in memory(in core).}
   spec.homepage      = 'https://github.com/kzcat/ruby-fincore'
   spec.license       = 'MIT'
   spec.extensions    = %w[ext/fincore/extconf.rb]
