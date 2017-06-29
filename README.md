@@ -22,10 +22,11 @@ work with `IO#advise`
 ```ruby
 require 'fincore'
 
-f = File.open('some/file') do |f|
+File.open('some/file') do |f|
   f.advise(:willneed) # tell the kernel file contents will be accessed.
   f.cached_pages
   => 620129
+  
   f.advise(:dontneed) # tell the kernel no more access.
   f.cached_pages
   => 0
